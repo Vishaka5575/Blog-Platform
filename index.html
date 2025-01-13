@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Blog</h1>
+  </header>
+
+  <!-- Blog Posts Section -->
+  <section id="blog-posts" class="blog-posts">
+    <h2>Recent Posts</h2>
+    <div id="posts-container" class="posts-container">
+      <!-- Blog posts will appear here -->
+    </div>
+  </section>
+
+  <!-- Add Post Section -->
+  <section id="add-post" class="add-post">
+    <h2>Write a New Post</h2>
+    <form id="post-form">
+      <input type="text" id="title" placeholder="Post Title" required />
+      <textarea id="content" placeholder="Write your post..." required></textarea>
+      <button type="submit" class="cta-button">Add Post</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
